@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Arknight</string>
+    <string name="btn1">干员寻访</string>
+    <string name="drawOnce">寻访一次</string>
+    <string name="TenNames1"></string>
+    <string name="TenNames2"></string>
+    <string name="TenNames3"></string>
+    <string name="TenNames4"></string>
+    <string name="TenNames5"></string>
+    <string name="TenNames6"></string>
+    <string name="TenNames7"></string>
+    <string name="TenNames8"></string>
+    <string name="TenNames9"></string>
+    <string name="TenNames10"></string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/bk_color"
+        android:gravity="center">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+        <Button
+                android:background="@drawable/gytj_button"
+                android:id="@+id/onePictures"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="35sp"
+                android:text="一星"/>
+
+        <Button
+                android:background="@drawable/gytj_button"
+                android:id="@+id/twoPictures"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="二星"
+                android:textSize="35sp"
+                android:layout_marginLeft="35dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30dp">
+
+        <Button
+                android:background="@drawable/gytj_button"
+                android:id="@+id/threePictures"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="三星"
+                android:textSize="35sp"/>
+
+        <Button
+                android:background="@drawable/gytj_button"
+                android:id="@+id/fourPictures"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="四星"
+                android:textSize="35sp"
+                android:layout_marginLeft="35dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30dp">
+
+        <Button
+                android:background="@drawable/gytj_button"
+                android:id="@+id/fivePictures"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="五星"
+                android:textSize="35sp"/>
+
+        <Button
+                android:background="@drawable/gytj_button"
+                android:id="@+id/sixPictures"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="六星"
+                android:textSize="35sp"
+                android:layout_marginLeft="35dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

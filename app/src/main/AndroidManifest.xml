@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.allan.arknight">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/launcher_icon"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/launcher_icon"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.Arknight">
+        <activity android:name=".SelectedSearchingActivity">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".XunFangActivity"/>
+        <activity android:name=".TuJianActivity"/>
+        <activity android:name=".OnePicturesActivity"/>
+        <activity android:name=".TwoPicturesActivity"/>
+        <activity android:name=".ThreePicturesActivity"/>
+        <activity android:name=".FourPicturesActivity"/>
+        <activity android:name=".FivePicturesActivity"/>
+        <activity android:name=".SixPicturesActivity"/>
+        <activity android:name=".GongKaiZhaoMuActivity"/>
+        <activity android:name=".MaterialActivity"/>
+    </application>
+
+</manifest>

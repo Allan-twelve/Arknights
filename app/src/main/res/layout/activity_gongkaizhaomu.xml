@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@color/bk_color"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFBF1"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+    <RelativeLayout
+            android:layout_width="360dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp">
+
+        <TextView
+                android:id="@+id/zizhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="资质"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+        <CheckBox
+                android:id="@+id/xinshou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/zizhi"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:text="新手"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/zishen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/xinshou"
+                android:layout_marginStart="12dp"
+                android:layout_alignTop="@id/xinshou"
+                android:text="资深干员"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/gaozi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xinshou"
+                android:layout_alignStart="@id/xinshou"
+                android:layout_marginTop="12dp"
+                android:text="高级资深干员"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="360dp"
+            android:layout_height="60dp">
+
+        <TextView
+                android:id="@+id/weizhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="位置"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+        <CheckBox
+                android:id="@+id/jinzhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/weizhi"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:text="近战位"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/yuancheng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/jinzhan"
+                android:layout_marginStart="12dp"
+                android:layout_alignTop="@id/jinzhan"
+                android:text="远程位"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="360dp"
+            android:layout_height="150dp">
+
+        <TextView
+                android:id="@+id/zhiye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="职业"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+        <CheckBox
+                android:id="@+id/juji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/zhiye"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:text="狙击"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/shushi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/juji"
+                android:layout_marginStart="12dp"
+                android:layout_alignTop="@id/juji"
+                android:text="术师"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/xianfeng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/shushi"
+                android:layout_marginStart="12dp"
+                android:layout_alignTop="@id/shushi"
+                android:text="先锋"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/jinwei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/juji"
+                android:layout_alignStart="@id/juji"
+                android:layout_marginTop="12dp"
+                android:text="近卫"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/zhongzhuang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@id/shushi"
+                android:layout_alignTop="@id/jinwei"
+                android:text="重装"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/yiliao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/zhongzhuang"
+                android:layout_alignStart="@id/xianfeng"
+                android:text="医疗"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/fuzhu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@id/jinwei"
+                android:layout_below="@id/jinwei"
+                android:layout_marginTop="12dp"
+                android:text="辅助"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/tezhong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@id/zhongzhuang"
+                android:layout_below="@id/jinwei"
+                android:layout_alignTop="@id/fuzhu"
+                android:text="特种"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="360dp"
+            android:layout_height="240dp">
+
+        <TextView
+                android:id="@+id/biaoqian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="标签"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+        <CheckBox
+                android:id="@+id/shuchu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/biaoqian"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:text="输出"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/zhiyuanjixie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/shuchu"
+                android:layout_toEndOf="@id/shuchu"
+                android:layout_marginStart="12dp"
+                android:text="支援机械"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/fanghu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/zhiyuanjixie"
+                android:layout_alignTop="@id/zhiyuanjixie"
+                android:layout_marginStart="12dp"
+                android:text="防护"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/shengcun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/shuchu"
+                android:layout_alignStart="@id/shuchu"
+                android:layout_marginTop="12dp"
+                android:text="生存"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/zhiliao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/shengcun"
+                android:layout_alignStart="@id/zhiyuanjixie"
+                android:text="治疗"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/huifei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/zhiliao"
+                android:layout_toEndOf="@id/zhiliao"
+                android:layout_marginStart="12dp"
+                android:text="费用回复"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/qungong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/shengcun"
+                android:layout_alignStart="@id/shengcun"
+                android:layout_marginTop="12dp"
+                android:text="群攻"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/jiansu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/qungong"
+                android:layout_alignStart="@id/zhiyuanjixie"
+                android:text="减速"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/zhiyuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/jiansu"
+                android:layout_alignStart="@id/huifei"
+                android:text="支援"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/kuaisufuhuo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/qungong"
+                android:layout_alignStart="@id/qungong"
+                android:layout_marginTop="12dp"
+                android:text="快速复活"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/xueruo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/kuaisufuhuo"
+                android:layout_toEndOf="@id/kuaisufuhuo"
+                android:layout_marginStart="12dp"
+                android:text="削弱"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/weiyi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/xueruo"
+                android:layout_alignStart="@id/fanghu"
+                android:text="位移"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/zhaohuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kuaisufuhuo"
+                android:layout_alignStart="@id/kuaisufuhuo"
+                android:layout_marginTop="12dp"
+                android:text="召唤"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/kongchang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/zhaohuan"
+                android:layout_alignStart="@id/jiansu"
+                android:text="控场"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        <CheckBox
+                android:id="@+id/baofa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/kongchang"
+                android:layout_alignStart="@id/zhiyuan"
+                android:text="爆发"
+                android:textSize="18sp"
+                android:button="@null"
+                android:gravity="center"
+                android:background="@drawable/check_button"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+        <Button
+                android:background="@drawable/gkzm_button"
+                android:id="@+id/search_persons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查看"
+                android:textSize="25sp"/>
+
+        <Button
+                android:background="@drawable/gkzm_button"
+                android:id="@+id/reset_persons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:text="重置"
+                android:textSize="25sp"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

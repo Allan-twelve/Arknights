@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape>
+            <!--边框-->
+            <!--            <stroke-->
+            <!--                android:color="@color/black"-->
+            <!--                android:width="2dp"/>-->
+            <!--圆角-->
+            <corners
+                    android:radius="10dp"/>
+            <!--填充颜色-->
+            <solid
+                    android:color="#7F7793"/>
+            <!--渐变-->
+            <!--            <gradient/>-->
+            <padding
+                    android:right="18dp"
+                    android:left="18dp"
+                    android:bottom="5dp"
+                    android:top="5dp"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="false">
+        <shape>
+            <!--边框-->
+            <!--            <stroke-->
+            <!--                android:color="@color/black"-->
+            <!--                android:width="2dp"/>-->
+            <!--圆角-->
+            <corners
+                    android:radius="10dp"/>
+            <!--填充颜色-->
+            <solid
+                    android:color="#AC9EC6"/>
+            <padding
+                    android:right="18dp"
+                    android:left="18dp"
+                    android:bottom="5dp"
+                    android:top="5dp"/>
+        </shape>
+    </item>
+
+</selector>
