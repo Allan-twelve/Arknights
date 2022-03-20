@@ -201,9 +201,9 @@ public class SixPicturesActivity extends AppCompatActivity {
     }
 
     private final String[] sixStar = {
-            // 53
+            // 54
             // 常驻
-            // 43
+            // 44
             "能天使", "黑", "安洁莉娜", "银灰", "莫斯提马",
             "夜莺", "星熊", "陈", "阿", "煌",
             "麦哲伦", "赫拉格", "斯卡蒂", "塞雷娅", "闪灵",
@@ -212,7 +212,7 @@ public class SixPicturesActivity extends AppCompatActivity {
             "森蚺", "史尔特尔", "瑕光", "泥岩", "山",
             "空弦", "嵯峨", "异客", "凯尔希", "卡涅利安",
             "帕拉斯", "水月", "琴柳", "远牙", "焰尾",
-            "灵知", "老鲤", "澄闪",
+            "灵知", "老鲤", "澄闪", "菲亚梅塔",
             // 限定
             // 10
             "W", "歌蕾蒂娅", "灰烬", "迷迭香", "年",
@@ -263,6 +263,7 @@ public class SixPicturesActivity extends AppCompatActivity {
             R.raw.lingzhi_report_voice,
             R.raw.laoli_report_voice,
             R.raw.chengshan_report_voice,
+            R.raw.feiyameita_report_voice,
             //
             R.raw.w_report_voice,
             R.raw.geleidiya_report_voice,
@@ -320,6 +321,7 @@ public class SixPicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/4/4b/%E7%AB%8B%E7%BB%98_%E7%81%B5%E7%9F%A5_1.png",
             "https://prts.wiki/images/5/57/%E7%AB%8B%E7%BB%98_%E8%80%81%E9%B2%A4_1.png",
             "https://prts.wiki/images/4/46/%E7%AB%8B%E7%BB%98_%E6%BE%84%E9%97%AA_1.png",
+            "https://prts.wiki/images/9/9c/%E7%AB%8B%E7%BB%98_%E8%8F%B2%E4%BA%9A%E6%A2%85%E5%A1%94_1.png",
             //
             "https://prts.wiki/images/4/44/%E7%AB%8B%E7%BB%98_W_1.png",
             "https://prts.wiki/images/8/84/%E7%AB%8B%E7%BB%98_%E6%AD%8C%E8%95%BE%E8%92%82%E5%A8%85_1.png",
@@ -377,6 +379,7 @@ public class SixPicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/0/09/%E7%AB%8B%E7%BB%98_%E7%81%B5%E7%9F%A5_2.png",
             "https://prts.wiki/images/1/1f/%E7%AB%8B%E7%BB%98_%E8%80%81%E9%B2%A4_2.png",
             "https://prts.wiki/images/d/d0/%E7%AB%8B%E7%BB%98_%E6%BE%84%E9%97%AA_2.png",
+            "https://prts.wiki/images/4/47/%E7%AB%8B%E7%BB%98_%E8%8F%B2%E4%BA%9A%E6%A2%85%E5%A1%94_2.png",
             //
             "https://prts.wiki/images/3/39/%E7%AB%8B%E7%BB%98_W_2.png",
             "https://prts.wiki/images/6/61/%E7%AB%8B%E7%BB%98_%E6%AD%8C%E8%95%BE%E8%92%82%E5%A8%85_2.png",
