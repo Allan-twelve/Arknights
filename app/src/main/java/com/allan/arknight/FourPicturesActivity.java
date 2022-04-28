@@ -50,9 +50,9 @@ public class FourPicturesActivity extends AppCompatActivity {
     }
 
     private final String[] fourStar = {
-            // 49
+            // 50
             // 常驻
-            // 41
+            // 42
             "安比尔", "梅", "红云", "桃金娘", "苏苏洛",
             "格雷伊", "猎蜂", "阿消", "地灵", "深海色",
             "古米", "蛇屠箱", "角峰", "调香师", "末药",
@@ -61,11 +61,11 @@ public class FourPicturesActivity extends AppCompatActivity {
             "杰西卡", "远山", "夜烟", "宴", "刻刀",
             "波登可", "卡达", "孑", "酸糖", "芳汀",
             "泡泡", "杰克", "松果", "豆苗", "深靛",
-            "罗比菈塔",
+            "罗比菈塔", "褐果",
             // 非寻访
             // 8
             "艾丝黛尔", "清流", "断罪者", "嘉维尔", "坚雷",
-            "讯使", "伊桑", "布丁"
+            "讯使", "伊桑", "布丁",
     };
 
     private final int[] four_voice = {
@@ -110,6 +110,8 @@ public class FourPicturesActivity extends AppCompatActivity {
             R.raw.doumiao_report_voice,
             R.raw.shendian_report_voice,
             R.raw.luobilata_report_voice,
+            R.raw.heguo_report_voice,
+            //
             R.raw.aisidaier_report_voice,
             R.raw.qingliu_report_voice,
             R.raw.duanzuizhe_report_voice,
@@ -162,6 +164,8 @@ public class FourPicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/4/4b/%E7%AB%8B%E7%BB%98_%E8%B1%86%E8%8B%97_1.png",
             "https://prts.wiki/images/a/a1/%E7%AB%8B%E7%BB%98_%E6%B7%B1%E9%9D%9B_1.png",
             "https://prts.wiki/images/9/9d/%E7%AB%8B%E7%BB%98_%E7%BD%97%E6%AF%94%E8%8F%88%E5%A1%94_1.png",
+            "https://prts.wiki/images/0/04/%E7%AB%8B%E7%BB%98_%E8%A4%90%E6%9E%9C_1.png",
+            //
             "https://prts.wiki/images/a/a3/%E7%AB%8B%E7%BB%98_%E8%89%BE%E4%B8%9D%E9%BB%9B%E5%B0%94_1.png",
             "https://prts.wiki/images/f/f3/%E7%AB%8B%E7%BB%98_%E6%B8%85%E6%B5%81_1.png",
             "https://prts.wiki/images/e/e2/%E7%AB%8B%E7%BB%98_%E6%96%AD%E7%BD%AA%E8%80%85_1.png",
@@ -215,6 +219,8 @@ public class FourPicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/8/87/%E7%AB%8B%E7%BB%98_%E8%B1%86%E8%8B%97_2.png",
             "https://prts.wiki/images/0/09/%E7%AB%8B%E7%BB%98_%E6%B7%B1%E9%9D%9B_2.png",
             "https://prts.wiki/images/c/c4/%E7%AB%8B%E7%BB%98_%E7%BD%97%E6%AF%94%E8%8F%88%E5%A1%94_2.png",
+            "https://prts.wiki/images/1/1b/%E7%AB%8B%E7%BB%98_%E8%A4%90%E6%9E%9C_2.png",
+            //
             "https://prts.wiki/images/e/e8/%E7%AB%8B%E7%BB%98_%E8%89%BE%E4%B8%9D%E9%BB%9B%E5%B0%94_2.png",
             "https://prts.wiki/images/4/48/%E7%AB%8B%E7%BB%98_%E6%B8%85%E6%B5%81_2.png",
             "https://prts.wiki/images/d/d9/%E7%AB%8B%E7%BB%98_%E6%96%AD%E7%BD%AA%E8%80%85_2.png",

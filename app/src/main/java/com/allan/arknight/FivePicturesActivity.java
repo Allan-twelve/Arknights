@@ -63,9 +63,9 @@ public class FivePicturesActivity extends AppCompatActivity {
     };
 
     private final String[] fiveStar = {
-            // 98
+            // 100
             // 常驻
-            // 64
+            // 65
             "狮蝎", "食铁兽", "蓝毒", "拉普兰德", "幽灵鲨",
             "德克萨斯", "槐琥", "赫默", "红", "白面鸮",
             "空", "吽", "灰喉", "布洛卡", "苇草",
@@ -78,9 +78,9 @@ public class FivePicturesActivity extends AppCompatActivity {
             "安哲拉", "燧石", "四月", "奥斯塔", "絮雨",
             "卡夫卡", "爱丽丝", "乌有", "熔泉", "赤冬",
             "绮良", "羽毛笔", "桑葚", "灰毫", "蚀清",
-            "极光", "夜半", "夏栎", "风丸",
+            "极光", "夜半", "夏栎", "风丸", "洛洛",
             // 非寻访
-            // 34
+            // 35
             "阿米娅", "柏喙", "拜松", "薄绿", "暴行",
             "暴雨", "贝娜", "鞭刃", "格拉尼", "火神",
             "苦艾", "罗宾", "闪击", "霜华", "特米米",
@@ -88,6 +88,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             "亚叶", "炎客", "炎狱炎熔", "因陀罗", "战车",
             "铸铁", "龙舌兰", "蜜莓", "野鬃", "耶拉",
             "暮落", "九色鹿", "寒芒克洛丝", "见行者",
+            "海蒂",
     };
 
     private final int[] five_voice = {
@@ -155,6 +156,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             R.raw.yeban_report_voice,
             R.raw.xiali_report_voice,
             R.raw.fengwan_report_voice,
+            R.raw.luoluo_report_voice,
             //
             R.raw.amiya_report_voice,
             R.raw.baihui_report_voice,
@@ -190,6 +192,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             R.raw.jiuselu_report_voice,
             R.raw.hanmangkeluosi_report_voice,
             R.raw.jianxingzhe_report_voice,
+            R.raw.haidi_report_voice,
     };
 
     private static final String[] five_url = {
@@ -257,6 +260,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/a/ac/%E7%AB%8B%E7%BB%98_%E5%A4%9C%E5%8D%8A_1.png",
             "https://prts.wiki/images/4/4d/%E7%AB%8B%E7%BB%98_%E5%A4%8F%E6%A0%8E_1.png",
             "https://prts.wiki/images/8/88/%E7%AB%8B%E7%BB%98_%E9%A3%8E%E4%B8%B8_1.png",
+            "https://prts.wiki/images/a/a5/%E7%AB%8B%E7%BB%98_%E6%B4%9B%E6%B4%9B_1.png",
             //
             "https://prts.wiki/images/d/dd/%E7%AB%8B%E7%BB%98_%E9%98%BF%E7%B1%B3%E5%A8%85_1.png",
             "https://prts.wiki/images/4/4e/%E7%AB%8B%E7%BB%98_%E6%9F%8F%E5%96%99_1.png",
@@ -292,6 +296,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/5/5e/%E7%AB%8B%E7%BB%98_%E4%B9%9D%E8%89%B2%E9%B9%BF_1.png",
             "https://prts.wiki/images/5/51/%E7%AB%8B%E7%BB%98_%E5%AF%92%E8%8A%92%E5%85%8B%E6%B4%9B%E4%B8%9D_1.png",
             "https://prts.wiki/images/5/54/%E7%AB%8B%E7%BB%98_%E8%A7%81%E8%A1%8C%E8%80%85_1.png",
+            "https://prts.wiki/images/6/6a/%E7%AB%8B%E7%BB%98_%E6%B5%B7%E8%92%82_1.png",
     };
 
     private static String[] five_url2 = {
@@ -359,6 +364,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/7/7e/%E7%AB%8B%E7%BB%98_%E5%A4%9C%E5%8D%8A_2.png",
             "https://prts.wiki/images/0/02/%E7%AB%8B%E7%BB%98_%E5%A4%8F%E6%A0%8E_2.png",
             "https://prts.wiki/images/b/b8/%E7%AB%8B%E7%BB%98_%E9%A3%8E%E4%B8%B8_2.png",
+            "https://prts.wiki/images/7/78/%E7%AB%8B%E7%BB%98_%E6%B4%9B%E6%B4%9B_2.png",
             //
             "https://prts.wiki/images/3/3f/%E7%AB%8B%E7%BB%98_%E9%98%BF%E7%B1%B3%E5%A8%85_2.png",
             "https://prts.wiki/images/2/2d/%E7%AB%8B%E7%BB%98_%E6%9F%8F%E5%96%99_2.png",
@@ -394,5 +400,6 @@ public class FivePicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/b/b6/%E7%AB%8B%E7%BB%98_%E4%B9%9D%E8%89%B2%E9%B9%BF_2.png",
             "https://prts.wiki/images/2/2f/%E7%AB%8B%E7%BB%98_%E5%AF%92%E8%8A%92%E5%85%8B%E6%B4%9B%E4%B8%9D_2.png",
             "https://prts.wiki/images/9/95/%E7%AB%8B%E7%BB%98_%E8%A7%81%E8%A1%8C%E8%80%85_2.png",
+            "https://prts.wiki/images/f/f7/%E7%AB%8B%E7%BB%98_%E6%B5%B7%E8%92%82_2.png",
     };
 }
