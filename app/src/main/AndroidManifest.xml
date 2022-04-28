@@ -11,8 +11,6 @@
             android:roundIcon="@drawable/launcher_icon"
             android:supportsRtl="true"
             android:theme="@style/Theme.Arknight">
-        <activity android:name=".SelectedSearchingActivity">
-        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -20,7 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".XunFangActivity"/>
+        <activity android:name=".SelectedSearchingActivity"/>
         <activity android:name=".TuJianActivity"/>
         <activity android:name=".OnePicturesActivity"/>
         <activity android:name=".TwoPicturesActivity"/>
