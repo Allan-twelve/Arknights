@@ -2,6 +2,7 @@ package com.allan.arknight;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.*;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -577,8 +579,8 @@ public class GongKaiZhaoMuActivity extends AppCompatActivity {
     }
 
     private void add_sixStar(){
-        String[] names = new String[45];
-        int[] color = new int[45];
+        String[] names = new String[100];
+        int[] color = new int[100];
         int index = 0;
         for (String six_person : six_persons) {
             names[index] = six_person;
@@ -590,8 +592,8 @@ public class GongKaiZhaoMuActivity extends AppCompatActivity {
     }
 
     private void add_fiveStar(){
-        String[] names = new String[45];
-        int[] color = new int[45];
+        String[] names = new String[100];
+        int[] color = new int[100];
         int index = 0;
         for (String five_person : five_persons) {
             names[index] = five_person;
@@ -603,8 +605,8 @@ public class GongKaiZhaoMuActivity extends AppCompatActivity {
     }
 
     private void add_normal(int[] selected_tag){
-        String[] names = new String[45];
-        int[] color = new int[45];
+        String[] names = new String[100];
+        int[] color = new int[100];
         int index = 0;
         int num = selected_tag.length;
         String tag = null;
@@ -653,8 +655,8 @@ public class GongKaiZhaoMuActivity extends AppCompatActivity {
     }
 
     private void add_normal_five(int[] selected_tag){
-        String[] names = new String[45];
-        int[] color = new int[45];
+        String[] names = new String[100];
+        int[] color = new int[100];
         int index = 0;
         int num = selected_tag.length - 1;
         String tag = null;
@@ -678,8 +680,8 @@ public class GongKaiZhaoMuActivity extends AppCompatActivity {
     }
 
     private void add_normal_six(int[] selected_tag) {
-        String[] names = new String[45];
-        int[] color = new int[45];
+        String[] names = new String[100];
+        int[] color = new int[100];
         int index = 0;
         int num = selected_tag.length - 1;
         String tag = null;
@@ -744,58 +746,14 @@ public class GongKaiZhaoMuActivity extends AppCompatActivity {
 
         class ViewHolder extends RecyclerView.ViewHolder{
             TextView tags;
-            TextView[] names = new TextView[45];
+            GridView gridView;
             LinearLayout linearLayout;
 
             public ViewHolder(View view){
                 super(view);
-                tags = view.findViewById(R.id.tags);
-                names[0] = view.findViewById(R.id.name1);
-                names[1] = view.findViewById(R.id.name2);
-                names[2] = view.findViewById(R.id.name3);
-                names[3] = view.findViewById(R.id.name4);
-                names[4] = view.findViewById(R.id.name5);
-                names[5] = view.findViewById(R.id.name6);
-                names[6] = view.findViewById(R.id.name7);
-                names[7] = view.findViewById(R.id.name8);
-                names[8] = view.findViewById(R.id.name9);
-                names[9] = view.findViewById(R.id.name10);
-                names[10] = view.findViewById(R.id.name11);
-                names[11] = view.findViewById(R.id.name12);
-                names[12] = view.findViewById(R.id.name13);
-                names[13] = view.findViewById(R.id.name14);
-                names[14] = view.findViewById(R.id.name15);
-                names[15] = view.findViewById(R.id.name16);
-                names[16] = view.findViewById(R.id.name17);
-                names[17] = view.findViewById(R.id.name18);
-                names[18] = view.findViewById(R.id.name19);
-                names[19] = view.findViewById(R.id.name20);
-                names[20] = view.findViewById(R.id.name21);
-                names[21] = view.findViewById(R.id.name22);
-                names[22] = view.findViewById(R.id.name23);
-                names[23] = view.findViewById(R.id.name24);
-                names[24] = view.findViewById(R.id.name25);
-                names[25] = view.findViewById(R.id.name26);
-                names[26] = view.findViewById(R.id.name27);
-                names[27] = view.findViewById(R.id.name28);
-                names[28] = view.findViewById(R.id.name29);
-                names[29] = view.findViewById(R.id.name30);
-                names[30] = view.findViewById(R.id.name31);
-                names[31] = view.findViewById(R.id.name32);
-                names[32] = view.findViewById(R.id.name33);
-                names[33] = view.findViewById(R.id.name34);
-                names[34] = view.findViewById(R.id.name35);
-                names[35] = view.findViewById(R.id.name36);
-                names[36] = view.findViewById(R.id.name37);
-                names[37] = view.findViewById(R.id.name38);
-                names[38] = view.findViewById(R.id.name39);
-                names[39] = view.findViewById(R.id.name40);
-                names[40] = view.findViewById(R.id.name41);
-                names[41] = view.findViewById(R.id.name42);
-                names[42] = view.findViewById(R.id.name43);
-                names[43] = view.findViewById(R.id.name44);
-                names[44] = view.findViewById(R.id.name45);
-                linearLayout = view.findViewById(R.id.my_layout);
+                this.tags = view.findViewById(R.id.tags);
+                this.gridView = view.findViewById(R.id.output_name);
+                this.linearLayout = view.findViewById(R.id.my_layout);
             }
         }
 
@@ -813,17 +771,54 @@ public class GongKaiZhaoMuActivity extends AppCompatActivity {
         public void onBindViewHolder(ViewHolder holder, int position) {
             RecyclerData t = list.get(position);
             holder.tags.setText(t.getTags());
-            for (int i = 0; i < t.getColor().length; i++) {
-                holder.names[i].setTextSize(20);
-                holder.names[i].setText(t.getNames()[i]);
-                holder.names[i].setTextColor(t.getColor()[i]);
-            }
+            GridViewAdapter adapter = new GridViewAdapter(t.getNames(), t.getColor());
+            holder.gridView.setAdapter(adapter);
+            ViewGroup.LayoutParams params = holder.gridView.getLayoutParams();
+            if (t.getNames().length % 3 != 0)
+                params.height = (t.getNames().length / 3 + 1) * 103;
+            else
+                params.height = (t.getNames().length / 3) * 103;
+            holder.gridView.setLayoutParams(params);
             holder.linearLayout.setBackgroundResource(backgrounds[getRandomNumber(0, 3)]);
         }
 
         @Override
         public int getItemCount(){
             return list.size();
+        }
+    }
+
+    private static class GridViewAdapter extends BaseAdapter{
+        String[] name_list;
+        int[] color_list;
+
+        public GridViewAdapter(String[] names, int[] colors){
+            this.name_list = names;
+            this.color_list = colors;
+        }
+
+        @Override
+        public int getCount() {
+            return name_list.length;
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return name_list[position];
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return 0;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.name_item, null);
+            TextView text = view.findViewById(R.id.name_item);
+            text.setText(name_list[position]);
+            text.setTextColor(color_list[position]);
+            return view;
         }
     }
 
