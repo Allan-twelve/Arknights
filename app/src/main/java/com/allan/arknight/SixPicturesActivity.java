@@ -60,6 +60,7 @@ public class SixPicturesActivity extends AppCompatActivity {
         }
     }
 
+
     public static class RecyclerData {
         private String name;
         private RecyclerAdapter2 recyclerAdapter2;
@@ -82,6 +83,15 @@ public class SixPicturesActivity extends AppCompatActivity {
         public int getVoiceID() {
             return voiceID;
         }
+    }
+
+     public class ListNode {
+         int val;
+         ListNode next;
+         ListNode(int x) {
+              val = x;
+              next = null;
+         }
     }
 
     public static class RecyclerPIC {
@@ -201,9 +211,9 @@ public class SixPicturesActivity extends AppCompatActivity {
     }
 
     private final String[] sixStar = {
-            // 59
+            // 64
             // 常驻
-            // 47
+            // 51
             "能天使", "黑", "安洁莉娜", "银灰", "莫斯提马",
             "夜莺", "星熊", "陈", "阿", "煌",
             "麦哲伦", "赫拉格", "斯卡蒂", "塞雷娅", "闪灵",
@@ -213,12 +223,13 @@ public class SixPicturesActivity extends AppCompatActivity {
             "空弦", "嵯峨", "异客", "凯尔希", "卡涅利安",
             "帕拉斯", "水月", "琴柳", "远牙", "焰尾",
             "灵知", "老鲤", "澄闪", "菲亚梅塔", "号角",
-            "艾丽妮", "黑键",
+            "艾丽妮", "黑键", "多萝西", "鸿雪", "玛恩纳",
+            "白铁",
             // 限定
-            // 12
+            // 13
             "W", "歌蕾蒂娅", "灰烬", "迷迭香", "年",
             "夕", "令", "浊心斯卡蒂", "假日威龙陈", "耀骑士临光",
-            "流明", "归溟幽灵鲨",
+            "流明", "归溟幽灵鲨", "百炼嘉维尔",
     };
 
     private final int[] six_voice = {
@@ -269,6 +280,10 @@ public class SixPicturesActivity extends AppCompatActivity {
             R.raw.haojiao_report_voice,
             R.raw.ailini_report_voice,
             R.raw.heijian_report_voice,
+            R.raw.duoluoxi_report_voice,
+            R.raw.hongxue_report_voice,
+            R.raw.maenna_report_voice,
+            R.raw.baitie_report_voice,
             //
             R.raw.w_report_voice,
             R.raw.geleidiya_report_voice,
@@ -282,6 +297,7 @@ public class SixPicturesActivity extends AppCompatActivity {
             R.raw.yaoqishilinguang_report_voice,
             R.raw.liuming_report_voice,
             R.raw.guimingyoulingsha_report_voice,
+            R.raw.bailianjiaweier_report_voice,
     };
 
     private static String[] six_url = {
@@ -332,6 +348,10 @@ public class SixPicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/4/49/%E7%AB%8B%E7%BB%98_%E5%8F%B7%E8%A7%92_1.png",
             "https://prts.wiki/images/5/55/%E7%AB%8B%E7%BB%98_%E8%89%BE%E4%B8%BD%E5%A6%AE_1.png",
             "https://prts.wiki/images/8/88/%E7%AB%8B%E7%BB%98_%E9%BB%91%E9%94%AE_1.png",
+            "https://prts.wiki/images/7/7b/%E7%AB%8B%E7%BB%98_%E5%A4%9A%E8%90%9D%E8%A5%BF_1.png",
+            "https://prts.wiki/images/5/54/%E7%AB%8B%E7%BB%98_%E9%B8%BF%E9%9B%AA_1.png",
+            "https://prts.wiki/images/6/66/%E7%AB%8B%E7%BB%98_%E7%8E%9B%E6%81%A9%E7%BA%B3_1.png",
+            "https://prts.wiki/images/2/28/%E7%AB%8B%E7%BB%98_%E7%99%BD%E9%93%81_1.png",
             //
             "https://prts.wiki/images/4/44/%E7%AB%8B%E7%BB%98_W_1.png",
             "https://prts.wiki/images/8/84/%E7%AB%8B%E7%BB%98_%E6%AD%8C%E8%95%BE%E8%92%82%E5%A8%85_1.png",
@@ -345,6 +365,7 @@ public class SixPicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/9/91/%E7%AB%8B%E7%BB%98_%E8%80%80%E9%AA%91%E5%A3%AB%E4%B8%B4%E5%85%89_1.png",
             "https://prts.wiki/images/9/96/%E7%AB%8B%E7%BB%98_%E6%B5%81%E6%98%8E_1.png",
             "https://prts.wiki/images/f/fc/%E7%AB%8B%E7%BB%98_%E5%BD%92%E6%BA%9F%E5%B9%BD%E7%81%B5%E9%B2%A8_1.png",
+            "https://prts.wiki/images/d/d8/%E7%AB%8B%E7%BB%98_%E7%99%BE%E7%82%BC%E5%98%89%E7%BB%B4%E5%B0%94_1.png",
     };
 
     private static String[] six_url2 = {
@@ -395,6 +416,10 @@ public class SixPicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/9/98/%E7%AB%8B%E7%BB%98_%E5%8F%B7%E8%A7%92_2.png",
             "https://prts.wiki/images/4/40/%E7%AB%8B%E7%BB%98_%E8%89%BE%E4%B8%BD%E5%A6%AE_2.png",
             "https://prts.wiki/images/e/ef/%E7%AB%8B%E7%BB%98_%E9%BB%91%E9%94%AE_2.png",
+            "https://prts.wiki/images/1/1f/%E7%AB%8B%E7%BB%98_%E5%A4%9A%E8%90%9D%E8%A5%BF_2.png",
+            "https://prts.wiki/images/0/0f/%E7%AB%8B%E7%BB%98_%E9%B8%BF%E9%9B%AA_2.png",
+            "https://prts.wiki/images/f/f0/%E7%AB%8B%E7%BB%98_%E7%8E%9B%E6%81%A9%E7%BA%B3_2.png",
+            "https://prts.wiki/images/1/1b/%E7%AB%8B%E7%BB%98_%E7%99%BD%E9%93%81_2.png",
             //
             "https://prts.wiki/images/3/39/%E7%AB%8B%E7%BB%98_W_2.png",
             "https://prts.wiki/images/6/61/%E7%AB%8B%E7%BB%98_%E6%AD%8C%E8%95%BE%E8%92%82%E5%A8%85_2.png",
@@ -408,5 +433,6 @@ public class SixPicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/e/ec/%E7%AB%8B%E7%BB%98_%E8%80%80%E9%AA%91%E5%A3%AB%E4%B8%B4%E5%85%89_2.png",
             "https://prts.wiki/images/a/ae/%E7%AB%8B%E7%BB%98_%E6%B5%81%E6%98%8E_2.png",
             "https://prts.wiki/images/1/16/%E7%AB%8B%E7%BB%98_%E5%BD%92%E6%BA%9F%E5%B9%BD%E7%81%B5%E9%B2%A8_2.png",
+            "https://prts.wiki/images/7/76/%E7%AB%8B%E7%BB%98_%E7%99%BE%E7%82%BC%E5%98%89%E7%BB%B4%E5%B0%94_2.png",
     };
 }
