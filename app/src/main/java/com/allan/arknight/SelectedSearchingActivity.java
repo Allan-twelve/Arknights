@@ -24,7 +24,7 @@ import java.util.Random;
 public class SelectedSearchingActivity extends AppCompatActivity {
 
     // 修改常驻干员数量
-    private final int SEARCHING_SIX = 51, SEARCHING_FIVE = 71, SEARCHING_FOUR = 43;
+    private final int SEARCHING_SIX = 52, SEARCHING_FIVE = 72, SEARCHING_FOUR = 43;
 
     ImageView img;
     EditText percent;
@@ -1053,9 +1053,9 @@ public class SelectedSearchingActivity extends AppCompatActivity {
     }
 
     private final String[] sixStars = {
-            // 64
+            // 67
             // 常驻
-            // 51
+            // 52
             "能天使", "黑", "安洁莉娜", "银灰", "莫斯提马",
             "夜莺", "星熊", "陈", "阿", "煌",
             "麦哲伦", "赫拉格", "斯卡蒂", "塞雷娅", "闪灵",
@@ -1066,18 +1066,18 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "帕拉斯", "水月", "琴柳", "远牙", "焰尾",
             "灵知", "老鲤", "澄闪", "菲亚梅塔", "号角",
             "艾丽妮", "黑键", "多萝西", "鸿雪", "玛恩纳",
-            "白铁",
+            "白铁", "斥罪",
             // 限定
-            // 13
+            // 15
             "W", "歌蕾蒂娅", "灰烬", "迷迭香", "年",
             "夕", "令", "浊心斯卡蒂", "假日威龙陈", "耀骑士临光",
-            "流明", "归溟幽灵鲨", "百炼嘉维尔",
+            "流明", "归溟幽灵鲨", "百炼嘉维尔", "缄默德克萨斯", "伺夜",
     };
 
     private final String[] fiveStars = {
-            // 113
+            // 115
             // 常驻
-            // 71
+            // 72
             "狮蝎", "食铁兽", "蓝毒", "拉普兰德", "幽灵鲨",
             "德克萨斯", "槐琥", "赫默", "红", "白面鸮",
             "空", "吽", "灰喉", "布洛卡", "苇草",
@@ -1092,9 +1092,9 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "绮良", "羽毛笔", "桑葚", "灰毫", "蚀清",
             "极光", "夜半", "夏栎", "风丸", "洛洛",
             "掠风", "濯尘芙蓉", "承曦格雷伊", "晓歌", "但书",
-            "明椒",
+            "明椒", "子月",
             // 非寻访
-            // 42
+            // 43
             "阿米娅", "柏喙", "拜松", "薄绿", "暴行",
             "暴雨", "贝娜", "鞭刃", "格拉尼", "火神",
             "苦艾", "罗宾", "闪击", "霜华", "特米米",
@@ -1103,11 +1103,11 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "铸铁", "龙舌兰", "蜜莓", "野鬃", "耶拉",
             "暮落", "九色鹿", "寒芒克洛丝", "见行者",
             "海蒂", "埃拉托", "车尔尼", "星源", "至简",
-            "海沫", "达格达",
+            "海沫", "达格达", "雪绒",
     };
 
     private final String[] fourStars = {
-            // 52
+            // 53
             // 常驻
             // 43
             "安比尔", "梅", "红云", "桃金娘", "苏苏洛",
@@ -1120,9 +1120,9 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "泡泡", "杰克", "松果", "豆苗", "深靛",
             "罗比菈塔", "褐果", "铅踝",
             // 非寻访
-            // 9
+            // 10
             "艾丝黛尔", "清流", "断罪者", "嘉维尔", "坚雷",
-            "讯使", "伊桑", "布丁", "罗小黑",
+            "讯使", "伊桑", "布丁", "罗小黑", "石英",
     };
 
     private final String[] threeStars = {
@@ -1185,6 +1185,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "https://prts.wiki/images/5/54/%E7%AB%8B%E7%BB%98_%E9%B8%BF%E9%9B%AA_1.png",
             "https://prts.wiki/images/6/66/%E7%AB%8B%E7%BB%98_%E7%8E%9B%E6%81%A9%E7%BA%B3_1.png",
             "https://prts.wiki/images/2/28/%E7%AB%8B%E7%BB%98_%E7%99%BD%E9%93%81_1.png",
+            "https://prts.wiki/images/7/79/%E7%AB%8B%E7%BB%98_%E6%96%A5%E7%BD%AA_1.png",
             //
             "https://prts.wiki/images/4/44/%E7%AB%8B%E7%BB%98_W_1.png",
             "https://prts.wiki/images/8/84/%E7%AB%8B%E7%BB%98_%E6%AD%8C%E8%95%BE%E8%92%82%E5%A8%85_1.png",
@@ -1199,6 +1200,8 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "https://prts.wiki/images/9/96/%E7%AB%8B%E7%BB%98_%E6%B5%81%E6%98%8E_1.png",
             "https://prts.wiki/images/f/fc/%E7%AB%8B%E7%BB%98_%E5%BD%92%E6%BA%9F%E5%B9%BD%E7%81%B5%E9%B2%A8_1.png",
             "https://prts.wiki/images/d/d8/%E7%AB%8B%E7%BB%98_%E7%99%BE%E7%82%BC%E5%98%89%E7%BB%B4%E5%B0%94_1.png",
+            "https://prts.wiki/images/6/65/%E7%AB%8B%E7%BB%98_%E7%BC%84%E9%BB%98%E5%BE%B7%E5%85%8B%E8%90%A8%E6%96%AF_1.png",
+            "https://prts.wiki/images/f/f1/%E7%AB%8B%E7%BB%98_%E4%BC%BA%E5%A4%9C_1.png",
     };
 
     private static final String[] five_url = {
@@ -1273,6 +1276,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "https://prts.wiki/images/4/46/%E7%AB%8B%E7%BB%98_%E6%99%93%E6%AD%8C_1.png",
             "https://prts.wiki/images/c/c1/%E7%AB%8B%E7%BB%98_%E4%BD%86%E4%B9%A6_1.png",
             "https://prts.wiki/images/9/94/%E7%AB%8B%E7%BB%98_%E6%98%8E%E6%A4%92_1.png",
+            "https://prts.wiki/images/3/3f/%E7%AB%8B%E7%BB%98_%E5%AD%90%E6%9C%88_1.png",
             //
             "https://prts.wiki/images/d/dd/%E7%AB%8B%E7%BB%98_%E9%98%BF%E7%B1%B3%E5%A8%85_1.png",
             "https://prts.wiki/images/4/4e/%E7%AB%8B%E7%BB%98_%E6%9F%8F%E5%96%99_1.png",
@@ -1315,6 +1319,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "https://prts.wiki/images/d/d5/%E7%AB%8B%E7%BB%98_%E8%87%B3%E7%AE%80_1.png",
             "https://prts.wiki/images/d/df/%E7%AB%8B%E7%BB%98_%E6%B5%B7%E6%B2%AB_1.png",
             "https://prts.wiki/images/c/c8/%E7%AB%8B%E7%BB%98_%E8%BE%BE%E6%A0%BC%E8%BE%BE_1.png",
+            "https://prts.wiki/images/a/ab/%E7%AB%8B%E7%BB%98_%E9%9B%AA%E7%BB%92_1.png",
     };
 
     private static String[] four_url = {
@@ -1371,6 +1376,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "https://prts.wiki/images/e/e0/%E7%AB%8B%E7%BB%98_%E4%BC%8A%E6%A1%91_1.png",
             "https://prts.wiki/images/3/30/%E7%AB%8B%E7%BB%98_%E5%B8%83%E4%B8%81_1.png",
             "https://prts.wiki/images/5/5b/%E7%AB%8B%E7%BB%98_%E7%BD%97%E5%B0%8F%E9%BB%91_1.png",
+            "https://prts.wiki/images/d/da/%E7%AB%8B%E7%BB%98_%E7%9F%B3%E8%8B%B1_1.png",
 
     };
 
@@ -1445,6 +1451,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             R.raw.hongxue_report_voice,
             R.raw.maenna_report_voice,
             R.raw.baitie_report_voice,
+            R.raw.chizui_report_voice,
             //
             R.raw.w_report_voice,
             R.raw.geleidiya_report_voice,
@@ -1459,6 +1466,8 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             R.raw.liuming_report_voice,
             R.raw.guimingyoulingsha_report_voice,
             R.raw.bailianjiaweier_report_voice,
+            R.raw.jianmodekesasi_report_voice,
+            R.raw.ciye_report_voice,
     };
 
     private final int[] five_voice = {
@@ -1533,6 +1542,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             R.raw.xiaoge_report_voice,
             R.raw.danshu_report_voice,
             R.raw.mingjiao_report_voice,
+            R.raw.ziyue_report_voice,
             //
             R.raw.amiya_report_voice,
             R.raw.baihui_report_voice,
@@ -1575,6 +1585,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             R.raw.zhijian_report_voice,
             R.raw.haimo_report_voice,
             R.raw.dageda_report_voice,
+            R.raw.xuerong_report_voice,
     };
 
     private final int[] four_voice = {
@@ -1631,6 +1642,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             R.raw.yisang_report_voice,
             R.raw.buding_report_voice,
             R.raw.luoxiaohei_report_voice,
+            R.raw.shiying_report_voice,
     };
 
     private final int[] three_voice = {

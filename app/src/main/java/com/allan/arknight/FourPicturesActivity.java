@@ -50,7 +50,7 @@ public class FourPicturesActivity extends AppCompatActivity {
     }
 
     private final String[] fourStar = {
-            // 52
+            // 53
             // 常驻
             // 43
             "安比尔", "梅", "红云", "桃金娘", "苏苏洛",
@@ -63,9 +63,9 @@ public class FourPicturesActivity extends AppCompatActivity {
             "泡泡", "杰克", "松果", "豆苗", "深靛",
             "罗比菈塔", "褐果", "铅踝",
             // 非寻访
-            // 9
+            // 10
             "艾丝黛尔", "清流", "断罪者", "嘉维尔", "坚雷",
-            "讯使", "伊桑", "布丁", "罗小黑",
+            "讯使", "伊桑", "布丁", "罗小黑", "石英",
     };
 
     private final int[] four_voice = {
@@ -122,6 +122,7 @@ public class FourPicturesActivity extends AppCompatActivity {
             R.raw.yisang_report_voice,
             R.raw.buding_report_voice,
             R.raw.luoxiaohei_report_voice,
+            R.raw.shiying_report_voice,
     };
 
     private static String[] four_url = {
@@ -178,7 +179,7 @@ public class FourPicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/e/e0/%E7%AB%8B%E7%BB%98_%E4%BC%8A%E6%A1%91_1.png",
             "https://prts.wiki/images/3/30/%E7%AB%8B%E7%BB%98_%E5%B8%83%E4%B8%81_1.png",
             "https://prts.wiki/images/5/5b/%E7%AB%8B%E7%BB%98_%E7%BD%97%E5%B0%8F%E9%BB%91_1.png",
-
+            "https://prts.wiki/images/d/da/%E7%AB%8B%E7%BB%98_%E7%9F%B3%E8%8B%B1_1.png",
     };
 
     private static String[] four_url2 = {
@@ -235,5 +236,6 @@ public class FourPicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/b/b6/%E7%AB%8B%E7%BB%98_%E4%BC%8A%E6%A1%91_2.png",
             "https://prts.wiki/images/e/ed/%E7%AB%8B%E7%BB%98_%E5%B8%83%E4%B8%81_2.png",
             "https://prts.wiki/images/8/88/%E7%AB%8B%E7%BB%98_%E7%BD%97%E5%B0%8F%E9%BB%91_2.png",
+            "https://prts.wiki/images/7/78/%E7%AB%8B%E7%BB%98_%E7%9F%B3%E8%8B%B1_2.png",
     };
 }

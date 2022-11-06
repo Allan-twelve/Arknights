@@ -63,9 +63,9 @@ public class FivePicturesActivity extends AppCompatActivity {
     };
 
     private final String[] fiveStar = {
-            // 113
+            // 115
             // 常驻
-            // 71
+            // 72
             "狮蝎", "食铁兽", "蓝毒", "拉普兰德", "幽灵鲨",
             "德克萨斯", "槐琥", "赫默", "红", "白面鸮",
             "空", "吽", "灰喉", "布洛卡", "苇草",
@@ -80,9 +80,9 @@ public class FivePicturesActivity extends AppCompatActivity {
             "绮良", "羽毛笔", "桑葚", "灰毫", "蚀清",
             "极光", "夜半", "夏栎", "风丸", "洛洛",
             "掠风", "濯尘芙蓉", "承曦格雷伊", "晓歌", "但书",
-            "明椒",
+            "明椒", "子月",
             // 非寻访
-            // 42
+            // 43
             "阿米娅", "柏喙", "拜松", "薄绿", "暴行",
             "暴雨", "贝娜", "鞭刃", "格拉尼", "火神",
             "苦艾", "罗宾", "闪击", "霜华", "特米米",
@@ -91,7 +91,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             "铸铁", "龙舌兰", "蜜莓", "野鬃", "耶拉",
             "暮落", "九色鹿", "寒芒克洛丝", "见行者",
             "海蒂", "埃拉托", "车尔尼", "星源", "至简",
-            "海沫", "达格达",
+            "海沫", "达格达", "雪绒",
     };
 
     private final int[] five_voice = {
@@ -166,6 +166,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             R.raw.xiaoge_report_voice,
             R.raw.danshu_report_voice,
             R.raw.mingjiao_report_voice,
+            R.raw.ziyue_report_voice,
             //
             R.raw.amiya_report_voice,
             R.raw.baihui_report_voice,
@@ -208,6 +209,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             R.raw.zhijian_report_voice,
             R.raw.haimo_report_voice,
             R.raw.dageda_report_voice,
+            R.raw.xuerong_report_voice,
     };
 
     private static final String[] five_url = {
@@ -282,6 +284,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/4/46/%E7%AB%8B%E7%BB%98_%E6%99%93%E6%AD%8C_1.png",
             "https://prts.wiki/images/c/c1/%E7%AB%8B%E7%BB%98_%E4%BD%86%E4%B9%A6_1.png",
             "https://prts.wiki/images/9/94/%E7%AB%8B%E7%BB%98_%E6%98%8E%E6%A4%92_1.png",
+            "https://prts.wiki/images/3/3f/%E7%AB%8B%E7%BB%98_%E5%AD%90%E6%9C%88_1.png",
             //
             "https://prts.wiki/images/d/dd/%E7%AB%8B%E7%BB%98_%E9%98%BF%E7%B1%B3%E5%A8%85_1.png",
             "https://prts.wiki/images/4/4e/%E7%AB%8B%E7%BB%98_%E6%9F%8F%E5%96%99_1.png",
@@ -324,6 +327,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/d/d5/%E7%AB%8B%E7%BB%98_%E8%87%B3%E7%AE%80_1.png",
             "https://prts.wiki/images/d/df/%E7%AB%8B%E7%BB%98_%E6%B5%B7%E6%B2%AB_1.png",
             "https://prts.wiki/images/c/c8/%E7%AB%8B%E7%BB%98_%E8%BE%BE%E6%A0%BC%E8%BE%BE_1.png",
+            "https://prts.wiki/images/a/ab/%E7%AB%8B%E7%BB%98_%E9%9B%AA%E7%BB%92_1.png",
     };
 
     private static String[] five_url2 = {
@@ -398,6 +402,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/d/dc/%E7%AB%8B%E7%BB%98_%E6%99%93%E6%AD%8C_2.png",
             "https://prts.wiki/images/7/78/%E7%AB%8B%E7%BB%98_%E4%BD%86%E4%B9%A6_2.png",
             "https://prts.wiki/images/6/6e/%E7%AB%8B%E7%BB%98_%E6%98%8E%E6%A4%92_2.png",
+            "https://prts.wiki/images/9/95/%E7%AB%8B%E7%BB%98_%E5%AD%90%E6%9C%88_2.png",
             //
             "https://prts.wiki/images/3/3f/%E7%AB%8B%E7%BB%98_%E9%98%BF%E7%B1%B3%E5%A8%85_2.png",
             "https://prts.wiki/images/2/2d/%E7%AB%8B%E7%BB%98_%E6%9F%8F%E5%96%99_2.png",
@@ -440,5 +445,6 @@ public class FivePicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/f/fb/%E7%AB%8B%E7%BB%98_%E8%87%B3%E7%AE%80_2.png",
             "https://prts.wiki/images/b/bc/%E7%AB%8B%E7%BB%98_%E6%B5%B7%E6%B2%AB_2.png",
             "https://prts.wiki/images/6/65/%E7%AB%8B%E7%BB%98_%E8%BE%BE%E6%A0%BC%E8%BE%BE_2.png",
+            "https://prts.wiki/images/9/92/%E7%AB%8B%E7%BB%98_%E9%9B%AA%E7%BB%92_2.png",
     };
 }
