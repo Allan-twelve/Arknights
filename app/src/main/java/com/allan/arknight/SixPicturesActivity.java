@@ -211,9 +211,9 @@ public class SixPicturesActivity extends AppCompatActivity {
     }
 
     private final String[] sixStar = {
-            // 67
+            // 80
             // 常驻
-            // 52
+            // 60
             "能天使", "黑", "安洁莉娜", "银灰", "莫斯提马",
             "夜莺", "星熊", "陈", "阿", "煌",
             "麦哲伦", "赫拉格", "斯卡蒂", "塞雷娅", "闪灵",
@@ -224,12 +224,14 @@ public class SixPicturesActivity extends AppCompatActivity {
             "帕拉斯", "水月", "琴柳", "远牙", "焰尾",
             "灵知", "老鲤", "澄闪", "菲亚梅塔", "号角",
             "艾丽妮", "黑键", "多萝西", "鸿雪", "玛恩纳",
-            "白铁", "斥罪",
+            "白铁", "斥罪", "焰影苇草", "林", "仇白",
+            "伊内丝", "霍尔海雅", "圣约送葬人", "提丰", "琳琅诗怀雅",
             // 限定
-            // 15
+            // 20
             "W", "歌蕾蒂娅", "灰烬", "迷迭香", "年",
             "夕", "令", "浊心斯卡蒂", "假日威龙陈", "耀骑士临光",
             "流明", "归溟幽灵鲨", "百炼嘉维尔", "缄默德克萨斯", "伺夜",
+            "重岳",  "麒麟R夜刀", "淬羽赫默", "缪尔赛思", "纯烬艾雅法拉",
     };
 
     private final int[] six_voice = {
@@ -285,6 +287,14 @@ public class SixPicturesActivity extends AppCompatActivity {
             R.raw.maenna_report_voice,
             R.raw.baitie_report_voice,
             R.raw.chizui_report_voice,
+            R.raw.yanyingweicao_report_voice,
+            R.raw.ling_report_voice,
+            R.raw.choubai_report_voice,
+            R.raw.yineisi_report_voice,
+            R.raw.huoerhaiya_report_voice,
+            R.raw.shengyuesongzangren_report_voice,
+            R.raw.tifeng_report_voice,
+            R.raw.linlangshihuaiya_report_voice,
             //
             R.raw.w_report_voice,
             R.raw.geleidiya_report_voice,
@@ -301,6 +311,11 @@ public class SixPicturesActivity extends AppCompatActivity {
             R.raw.bailianjiaweier_report_voice,
             R.raw.jianmodekesasi_report_voice,
             R.raw.ciye_report_voice,
+            R.raw.zhongyue_report_voice,
+            R.raw.qilinryedao_report_voice,
+            R.raw.cuiyuhemo_report_voice,
+            R.raw.mouersaisi_report_voice,
+            R.raw.chunjinaiyafala_report_voice,
     };
 
     private static String[] six_url = {
@@ -356,6 +371,14 @@ public class SixPicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/6/66/%E7%AB%8B%E7%BB%98_%E7%8E%9B%E6%81%A9%E7%BA%B3_1.png",
             "https://prts.wiki/images/2/28/%E7%AB%8B%E7%BB%98_%E7%99%BD%E9%93%81_1.png",
             "https://prts.wiki/images/7/79/%E7%AB%8B%E7%BB%98_%E6%96%A5%E7%BD%AA_1.png",
+            "https://prts.wiki/images/7/7c/%E7%AB%8B%E7%BB%98_%E7%84%B0%E5%BD%B1%E8%8B%87%E8%8D%89_1.png",
+            "https://prts.wiki/images/c/c9/%E7%AB%8B%E7%BB%98_%E6%9E%97_1.png",
+            "https://prts.wiki/images/6/60/%E7%AB%8B%E7%BB%98_%E4%BB%87%E7%99%BD_1.png",
+            "https://prts.wiki/images/0/07/%E7%AB%8B%E7%BB%98_%E4%BC%8A%E5%86%85%E4%B8%9D_1.png",
+            "https://prts.wiki/images/4/4f/%E7%AB%8B%E7%BB%98_%E9%9C%8D%E5%B0%94%E6%B5%B7%E9%9B%85_1.png",
+            "https://prts.wiki/images/7/71/%E7%AB%8B%E7%BB%98_%E5%9C%A3%E7%BA%A6%E9%80%81%E8%91%AC%E4%BA%BA_1.png",
+            "https://prts.wiki/images/8/8e/%E7%AB%8B%E7%BB%98_%E6%8F%90%E4%B8%B0_1.png",
+            "https://prts.wiki/images/a/a1/%E7%AB%8B%E7%BB%98_%E7%90%B3%E7%90%85%E8%AF%97%E6%80%80%E9%9B%85_1.png",
             //
             "https://prts.wiki/images/4/44/%E7%AB%8B%E7%BB%98_W_1.png",
             "https://prts.wiki/images/8/84/%E7%AB%8B%E7%BB%98_%E6%AD%8C%E8%95%BE%E8%92%82%E5%A8%85_1.png",
@@ -372,6 +395,11 @@ public class SixPicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/d/d8/%E7%AB%8B%E7%BB%98_%E7%99%BE%E7%82%BC%E5%98%89%E7%BB%B4%E5%B0%94_1.png",
             "https://prts.wiki/images/6/65/%E7%AB%8B%E7%BB%98_%E7%BC%84%E9%BB%98%E5%BE%B7%E5%85%8B%E8%90%A8%E6%96%AF_1.png",
             "https://prts.wiki/images/f/f1/%E7%AB%8B%E7%BB%98_%E4%BC%BA%E5%A4%9C_1.png",
+            "https://prts.wiki/images/0/04/%E7%AB%8B%E7%BB%98_%E9%87%8D%E5%B2%B3_1.png",
+            "https://prts.wiki/images/f/f4/%E7%AB%8B%E7%BB%98_%E9%BA%92%E9%BA%9FR%E5%A4%9C%E5%88%80_1.png",
+            "https://prts.wiki/images/b/b4/%E7%AB%8B%E7%BB%98_%E6%B7%AC%E7%BE%BD%E8%B5%AB%E9%BB%98_1.png",
+            "https://prts.wiki/images/2/24/%E7%AB%8B%E7%BB%98_%E7%BC%AA%E5%B0%94%E8%B5%9B%E6%80%9D_1.png",
+            "https://prts.wiki/images/5/50/%E7%AB%8B%E7%BB%98_%E7%BA%AF%E7%83%AC%E8%89%BE%E9%9B%85%E6%B3%95%E6%8B%89_1.png",
     };
 
     private static String[] six_url2 = {
@@ -427,6 +455,14 @@ public class SixPicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/f/f0/%E7%AB%8B%E7%BB%98_%E7%8E%9B%E6%81%A9%E7%BA%B3_2.png",
             "https://prts.wiki/images/1/1b/%E7%AB%8B%E7%BB%98_%E7%99%BD%E9%93%81_2.png",
             "https://prts.wiki/images/1/1a/%E7%AB%8B%E7%BB%98_%E6%96%A5%E7%BD%AA_2.png",
+            "https://prts.wiki/images/d/d3/%E7%AB%8B%E7%BB%98_%E7%84%B0%E5%BD%B1%E8%8B%87%E8%8D%89_2.png",
+            "https://prts.wiki/images/9/9d/%E7%AB%8B%E7%BB%98_%E6%9E%97_2.png",
+            "https://prts.wiki/images/4/4e/%E7%AB%8B%E7%BB%98_%E4%BB%87%E7%99%BD_2.png",
+            "https://prts.wiki/images/3/35/%E7%AB%8B%E7%BB%98_%E4%BC%8A%E5%86%85%E4%B8%9D_2.png",
+            "https://prts.wiki/images/2/27/%E7%AB%8B%E7%BB%98_%E9%9C%8D%E5%B0%94%E6%B5%B7%E9%9B%85_2.png",
+            "https://prts.wiki/images/9/94/%E7%AB%8B%E7%BB%98_%E5%9C%A3%E7%BA%A6%E9%80%81%E8%91%AC%E4%BA%BA_2.png",
+            "https://prts.wiki/images/9/9f/%E7%AB%8B%E7%BB%98_%E6%8F%90%E4%B8%B0_2.png",
+            "https://prts.wiki/images/0/0f/%E7%AB%8B%E7%BB%98_%E7%90%B3%E7%90%85%E8%AF%97%E6%80%80%E9%9B%85_2.png",
             //
             "https://prts.wiki/images/3/39/%E7%AB%8B%E7%BB%98_W_2.png",
             "https://prts.wiki/images/6/61/%E7%AB%8B%E7%BB%98_%E6%AD%8C%E8%95%BE%E8%92%82%E5%A8%85_2.png",
@@ -443,5 +479,10 @@ public class SixPicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/7/76/%E7%AB%8B%E7%BB%98_%E7%99%BE%E7%82%BC%E5%98%89%E7%BB%B4%E5%B0%94_2.png",
             "https://prts.wiki/images/f/f2/%E7%AB%8B%E7%BB%98_%E7%BC%84%E9%BB%98%E5%BE%B7%E5%85%8B%E8%90%A8%E6%96%AF_2.png",
             "https://prts.wiki/images/b/b5/%E7%AB%8B%E7%BB%98_%E4%BC%BA%E5%A4%9C_2.png",
+            "https://prts.wiki/images/a/a8/%E7%AB%8B%E7%BB%98_%E9%87%8D%E5%B2%B3_2.png",
+            "https://prts.wiki/images/9/9a/%E7%AB%8B%E7%BB%98_%E9%BA%92%E9%BA%9FR%E5%A4%9C%E5%88%80_2.png",
+            "https://prts.wiki/images/4/4f/%E7%AB%8B%E7%BB%98_%E6%B7%AC%E7%BE%BD%E8%B5%AB%E9%BB%98_2.png",
+            "https://prts.wiki/images/c/c7/%E7%AB%8B%E7%BB%98_%E7%BC%AA%E5%B0%94%E8%B5%9B%E6%80%9D_2.png",
+            "https://prts.wiki/images/0/04/%E7%AB%8B%E7%BB%98_%E7%BA%AF%E7%83%AC%E8%89%BE%E9%9B%85%E6%B3%95%E6%8B%89_2.png",
     };
 }

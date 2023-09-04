@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyWork/Android/Arknights/app/src/main/res/layout/activity_gongkaizhaomu.xml" value="0.2056159420289855" />
+        <entry key="..\:/MyWork/Android/Arknights/app/src/main/res/layout/activity_main.xml" value="0.20879629629629629" />
+        <entry key="..\:/MyWork/Android/Arknights/app/src/main/res/layout/activity_material.xml" value="0.20879629629629629" />
+        <entry key="..\:/MyWork/Android/Arknights/app/src/main/res/layout/activity_selected_searching.xml" value="0.20879629629629629" />
+        <entry key="..\:/MyWork/Android/Arknights/app/src/main/res/layout/activity_tujian.xml" value="0.20879629629629629" />
+        <entry key="..\:/MyWork/Android/Arknights/app/src/main/res/layout/name_item.xml" value="0.20879629629629629" />
+        <entry key="..\:/MyWork/Android/Arknights/app/src/main/res/layout/oneoutput.xml" value="0.20879629629629629" />
+        <entry key="..\:/MyWork/Android/Arknights/app/src/main/res/layout/result.xml" value="0.20879629629629629" />
+        <entry key="..\:/MyWork/Android/Arknights/app/src/main/res/layout/result_output.xml" value="0.20879629629629629" />
+        <entry key="..\:/MyWork/Android/Arknights/app/src/main/res/layout/tenoutput.xml" value="0.20879629629629629" />
+        <entry key="..\:/MyWork/Android/Arknights/app/src/main/res/layout/tongji.xml" value="0.20879629629629629" />
+      </map>
+    </option>
+  </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>

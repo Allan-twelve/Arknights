@@ -24,7 +24,7 @@ import java.util.Random;
 public class SelectedSearchingActivity extends AppCompatActivity {
 
     // 修改常驻干员数量
-    private final int SEARCHING_SIX = 52, SEARCHING_FIVE = 72, SEARCHING_FOUR = 43;
+    private final int SEARCHING_SIX = 60, SEARCHING_FIVE = 80, SEARCHING_FOUR = 44;
 
     ImageView img;
     EditText percent;
@@ -1053,9 +1053,9 @@ public class SelectedSearchingActivity extends AppCompatActivity {
     }
 
     private final String[] sixStars = {
-            // 67
+            // 80
             // 常驻
-            // 52
+            // 60
             "能天使", "黑", "安洁莉娜", "银灰", "莫斯提马",
             "夜莺", "星熊", "陈", "阿", "煌",
             "麦哲伦", "赫拉格", "斯卡蒂", "塞雷娅", "闪灵",
@@ -1066,18 +1066,20 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "帕拉斯", "水月", "琴柳", "远牙", "焰尾",
             "灵知", "老鲤", "澄闪", "菲亚梅塔", "号角",
             "艾丽妮", "黑键", "多萝西", "鸿雪", "玛恩纳",
-            "白铁", "斥罪",
+            "白铁", "斥罪", "焰影苇草", "林", "仇白",
+            "伊内丝", "霍尔海雅", "圣约送葬人", "提丰", "琳琅诗怀雅",
             // 限定
-            // 15
+            // 20
             "W", "歌蕾蒂娅", "灰烬", "迷迭香", "年",
             "夕", "令", "浊心斯卡蒂", "假日威龙陈", "耀骑士临光",
             "流明", "归溟幽灵鲨", "百炼嘉维尔", "缄默德克萨斯", "伺夜",
+            "重岳",  "麒麟R夜刀", "淬羽赫默", "缪尔赛思", "纯烬艾雅法拉",
     };
 
     private final String[] fiveStars = {
-            // 115
+            // 130
             // 常驻
-            // 72
+            // 80
             "狮蝎", "食铁兽", "蓝毒", "拉普兰德", "幽灵鲨",
             "德克萨斯", "槐琥", "赫默", "红", "白面鸮",
             "空", "吽", "灰喉", "布洛卡", "苇草",
@@ -1092,9 +1094,10 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "绮良", "羽毛笔", "桑葚", "灰毫", "蚀清",
             "极光", "夜半", "夏栎", "风丸", "洛洛",
             "掠风", "濯尘芙蓉", "承曦格雷伊", "晓歌", "但书",
-            "明椒", "子月",
+            "明椒", "子月", "和弦", "火哨", "铎铃",
+            "洋灰", "玫拉", "空构", "寒檀", "青枳",
             // 非寻访
-            // 43
+            // 50
             "阿米娅", "柏喙", "拜松", "薄绿", "暴行",
             "暴雨", "贝娜", "鞭刃", "格拉尼", "火神",
             "苦艾", "罗宾", "闪击", "霜华", "特米米",
@@ -1103,13 +1106,14 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "铸铁", "龙舌兰", "蜜莓", "野鬃", "耶拉",
             "暮落", "九色鹿", "寒芒克洛丝", "见行者",
             "海蒂", "埃拉托", "车尔尼", "星源", "至简",
-            "海沫", "达格达", "雪绒",
+            "海沫", "达格达", "雪绒", "谜图", "截云",
+            "火龙S黑角", "摩根", "隐现", "凛视", "苍苔",
     };
 
     private final String[] fourStars = {
-            // 53
+            // 54
             // 常驻
-            // 43
+            // 44
             "安比尔", "梅", "红云", "桃金娘", "苏苏洛",
             "格雷伊", "猎蜂", "阿消", "地灵", "深海色",
             "古米", "蛇屠箱", "角峰", "调香师", "末药",
@@ -1118,7 +1122,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "杰西卡", "远山", "夜烟", "宴", "刻刀",
             "波登可", "卡达", "孑", "酸糖", "芳汀",
             "泡泡", "杰克", "松果", "豆苗", "深靛",
-            "罗比菈塔", "褐果", "铅踝",
+            "罗比菈塔", "褐果", "铅踝", "休谟斯",
             // 非寻访
             // 10
             "艾丝黛尔", "清流", "断罪者", "嘉维尔", "坚雷",
@@ -1186,6 +1190,14 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "https://prts.wiki/images/6/66/%E7%AB%8B%E7%BB%98_%E7%8E%9B%E6%81%A9%E7%BA%B3_1.png",
             "https://prts.wiki/images/2/28/%E7%AB%8B%E7%BB%98_%E7%99%BD%E9%93%81_1.png",
             "https://prts.wiki/images/7/79/%E7%AB%8B%E7%BB%98_%E6%96%A5%E7%BD%AA_1.png",
+            "https://prts.wiki/images/7/7c/%E7%AB%8B%E7%BB%98_%E7%84%B0%E5%BD%B1%E8%8B%87%E8%8D%89_1.png",
+            "https://prts.wiki/images/c/c9/%E7%AB%8B%E7%BB%98_%E6%9E%97_1.png",
+            "https://prts.wiki/images/6/60/%E7%AB%8B%E7%BB%98_%E4%BB%87%E7%99%BD_1.png",
+            "https://prts.wiki/images/0/07/%E7%AB%8B%E7%BB%98_%E4%BC%8A%E5%86%85%E4%B8%9D_1.png",
+            "https://prts.wiki/images/4/4f/%E7%AB%8B%E7%BB%98_%E9%9C%8D%E5%B0%94%E6%B5%B7%E9%9B%85_1.png",
+            "https://prts.wiki/images/7/71/%E7%AB%8B%E7%BB%98_%E5%9C%A3%E7%BA%A6%E9%80%81%E8%91%AC%E4%BA%BA_1.png",
+            "https://prts.wiki/images/8/8e/%E7%AB%8B%E7%BB%98_%E6%8F%90%E4%B8%B0_1.png",
+            "https://prts.wiki/images/a/a1/%E7%AB%8B%E7%BB%98_%E7%90%B3%E7%90%85%E8%AF%97%E6%80%80%E9%9B%85_1.png",
             //
             "https://prts.wiki/images/4/44/%E7%AB%8B%E7%BB%98_W_1.png",
             "https://prts.wiki/images/8/84/%E7%AB%8B%E7%BB%98_%E6%AD%8C%E8%95%BE%E8%92%82%E5%A8%85_1.png",
@@ -1202,6 +1214,11 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "https://prts.wiki/images/d/d8/%E7%AB%8B%E7%BB%98_%E7%99%BE%E7%82%BC%E5%98%89%E7%BB%B4%E5%B0%94_1.png",
             "https://prts.wiki/images/6/65/%E7%AB%8B%E7%BB%98_%E7%BC%84%E9%BB%98%E5%BE%B7%E5%85%8B%E8%90%A8%E6%96%AF_1.png",
             "https://prts.wiki/images/f/f1/%E7%AB%8B%E7%BB%98_%E4%BC%BA%E5%A4%9C_1.png",
+            "https://prts.wiki/images/0/04/%E7%AB%8B%E7%BB%98_%E9%87%8D%E5%B2%B3_1.png",
+            "https://prts.wiki/images/f/f4/%E7%AB%8B%E7%BB%98_%E9%BA%92%E9%BA%9FR%E5%A4%9C%E5%88%80_1.png",
+            "https://prts.wiki/images/b/b4/%E7%AB%8B%E7%BB%98_%E6%B7%AC%E7%BE%BD%E8%B5%AB%E9%BB%98_1.png",
+            "https://prts.wiki/images/2/24/%E7%AB%8B%E7%BB%98_%E7%BC%AA%E5%B0%94%E8%B5%9B%E6%80%9D_1.png",
+            "https://prts.wiki/images/5/50/%E7%AB%8B%E7%BB%98_%E7%BA%AF%E7%83%AC%E8%89%BE%E9%9B%85%E6%B3%95%E6%8B%89_1.png",
     };
 
     private static final String[] five_url = {
@@ -1277,6 +1294,14 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "https://prts.wiki/images/c/c1/%E7%AB%8B%E7%BB%98_%E4%BD%86%E4%B9%A6_1.png",
             "https://prts.wiki/images/9/94/%E7%AB%8B%E7%BB%98_%E6%98%8E%E6%A4%92_1.png",
             "https://prts.wiki/images/3/3f/%E7%AB%8B%E7%BB%98_%E5%AD%90%E6%9C%88_1.png",
+            "https://prts.wiki/images/9/99/%E7%AB%8B%E7%BB%98_%E5%92%8C%E5%BC%A6_1.png",
+            "https://prts.wiki/images/7/78/%E7%AB%8B%E7%BB%98_%E7%81%AB%E5%93%A8_1.png",
+            "https://prts.wiki/images/9/96/%E7%AB%8B%E7%BB%98_%E9%93%8E%E9%93%83_1.png",
+            "https://prts.wiki/images/8/8f/%E7%AB%8B%E7%BB%98_%E6%B4%8B%E7%81%B0_1.png",
+            "https://prts.wiki/images/c/c3/%E7%AB%8B%E7%BB%98_%E7%8E%AB%E6%8B%89_1.png",
+            "https://prts.wiki/images/2/2d/%E7%AB%8B%E7%BB%98_%E7%A9%BA%E6%9E%84_1.png",
+            "https://prts.wiki/images/7/7a/%E7%AB%8B%E7%BB%98_%E5%AF%92%E6%AA%80_1.png",
+            "https://prts.wiki/images/f/f7/%E7%AB%8B%E7%BB%98_%E9%9D%92%E6%9E%B3_1.png",
             //
             "https://prts.wiki/images/d/dd/%E7%AB%8B%E7%BB%98_%E9%98%BF%E7%B1%B3%E5%A8%85_1.png",
             "https://prts.wiki/images/4/4e/%E7%AB%8B%E7%BB%98_%E6%9F%8F%E5%96%99_1.png",
@@ -1320,6 +1345,13 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "https://prts.wiki/images/d/df/%E7%AB%8B%E7%BB%98_%E6%B5%B7%E6%B2%AB_1.png",
             "https://prts.wiki/images/c/c8/%E7%AB%8B%E7%BB%98_%E8%BE%BE%E6%A0%BC%E8%BE%BE_1.png",
             "https://prts.wiki/images/a/ab/%E7%AB%8B%E7%BB%98_%E9%9B%AA%E7%BB%92_1.png",
+            "https://prts.wiki/images/1/1e/%E7%AB%8B%E7%BB%98_%E8%B0%9C%E5%9B%BE_1.png",
+            "https://prts.wiki/images/5/5b/%E7%AB%8B%E7%BB%98_%E6%88%AA%E4%BA%91_1.png",
+            "https://prts.wiki/images/d/d2/%E7%AB%8B%E7%BB%98_%E7%81%AB%E9%BE%99S%E9%BB%91%E8%A7%92_1.png",
+            "https://prts.wiki/images/5/59/%E7%AB%8B%E7%BB%98_%E6%91%A9%E6%A0%B9_1.png",
+            "https://prts.wiki/images/b/bf/%E7%AB%8B%E7%BB%98_%E9%9A%90%E7%8E%B0_1.png",
+            "https://prts.wiki/images/0/03/%E7%AB%8B%E7%BB%98_%E5%87%9B%E8%A7%86_1.png",
+            "https://prts.wiki/images/a/a8/%E7%AB%8B%E7%BB%98_%E8%8B%8D%E8%8B%94_1.png",
     };
 
     private static String[] four_url = {
@@ -1366,6 +1398,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "https://prts.wiki/images/9/9d/%E7%AB%8B%E7%BB%98_%E7%BD%97%E6%AF%94%E8%8F%88%E5%A1%94_1.png",
             "https://prts.wiki/images/0/04/%E7%AB%8B%E7%BB%98_%E8%A4%90%E6%9E%9C_1.png",
             "https://prts.wiki/images/4/42/%E7%AB%8B%E7%BB%98_%E9%93%85%E8%B8%9D_1.png",
+            "https://prts.wiki/images/2/29/%E7%AB%8B%E7%BB%98_%E4%BC%91%E8%B0%9F%E6%96%AF_1.png",
             //
             "https://prts.wiki/images/a/a3/%E7%AB%8B%E7%BB%98_%E8%89%BE%E4%B8%9D%E9%BB%9B%E5%B0%94_1.png",
             "https://prts.wiki/images/f/f3/%E7%AB%8B%E7%BB%98_%E6%B8%85%E6%B5%81_1.png",
@@ -1377,7 +1410,6 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "https://prts.wiki/images/3/30/%E7%AB%8B%E7%BB%98_%E5%B8%83%E4%B8%81_1.png",
             "https://prts.wiki/images/5/5b/%E7%AB%8B%E7%BB%98_%E7%BD%97%E5%B0%8F%E9%BB%91_1.png",
             "https://prts.wiki/images/d/da/%E7%AB%8B%E7%BB%98_%E7%9F%B3%E8%8B%B1_1.png",
-
     };
 
     private final String[] three_url = {
@@ -1452,6 +1484,14 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             R.raw.maenna_report_voice,
             R.raw.baitie_report_voice,
             R.raw.chizui_report_voice,
+            R.raw.yanyingweicao_report_voice,
+            R.raw.ling_report_voice,
+            R.raw.choubai_report_voice,
+            R.raw.yineisi_report_voice,
+            R.raw.huoerhaiya_report_voice,
+            R.raw.shengyuesongzangren_report_voice,
+            R.raw.tifeng_report_voice,
+            R.raw.linlangshihuaiya_report_voice,
             //
             R.raw.w_report_voice,
             R.raw.geleidiya_report_voice,
@@ -1468,6 +1508,11 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             R.raw.bailianjiaweier_report_voice,
             R.raw.jianmodekesasi_report_voice,
             R.raw.ciye_report_voice,
+            R.raw.zhongyue_report_voice,
+            R.raw.qilinryedao_report_voice,
+            R.raw.cuiyuhemo_report_voice,
+            R.raw.mouersaisi_report_voice,
+            R.raw.chunjinaiyafala_report_voice,
     };
 
     private final int[] five_voice = {
@@ -1543,6 +1588,14 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             R.raw.danshu_report_voice,
             R.raw.mingjiao_report_voice,
             R.raw.ziyue_report_voice,
+            R.raw.hexian_report_voice,
+            R.raw.huoshao_report_voice,
+            R.raw.duoling_report_voice,
+            R.raw.yanghui_report_voice,
+            R.raw.meila_report_voice,
+            R.raw.konggou_report_voice,
+            R.raw.hantan_report_voice,
+            R.raw.qingzhi_report_voice,
             //
             R.raw.amiya_report_voice,
             R.raw.baihui_report_voice,
@@ -1586,6 +1639,13 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             R.raw.haimo_report_voice,
             R.raw.dageda_report_voice,
             R.raw.xuerong_report_voice,
+            R.raw.mitu_report_voice,
+            R.raw.jieyun_report_voice,
+            R.raw.huolongsheijiao_report_voice,
+            R.raw.mogen_report_voice,
+            R.raw.yinxian_report_voice,
+            R.raw.linshi_report_voice,
+            R.raw.cangtai_report_voice,
     };
 
     private final int[] four_voice = {
@@ -1632,6 +1692,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             R.raw.luobilata_report_voice,
             R.raw.heguo_report_voice,
             R.raw.qianhuai_report_voice,
+            R.raw.xiumosi_report_voice,
             //
             R.raw.aisidaier_report_voice,
             R.raw.qingliu_report_voice,

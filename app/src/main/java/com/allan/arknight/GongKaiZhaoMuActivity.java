@@ -859,7 +859,8 @@ public class GongKaiZhaoMuActivity extends AppCompatActivity {
             "麦哲伦", "赫拉格", "斯卡蒂",
             "塞雷娅", "闪灵", "推进之王",
             "阿", "刻俄柏", "风笛",
-            "傀影", "温蒂",
+            "傀影", "温蒂", "早露",
+            "铃兰", "棘刺"
     };
 
     private final ArrayList<int[]> six_persons_tags = new ArrayList<>(Arrays.asList(
@@ -869,7 +870,8 @@ public class GongKaiZhaoMuActivity extends AppCompatActivity {
             new int[]{21, 20, 13, 11, 4}, new int[]{13, 16, 8, 3}, new int[]{13, 16, 8, 3},
             new int[]{15, 17, 21, 9, 3}, new int[]{17, 21, 10, 4}, new int[]{18, 13, 7, 3},
             new int[]{13, 21, 12, 4}, new int[]{13, 26, 6, 4}, new int[]{18, 13, 7, 3},
-            new int[]{26, 22, 13, 12, 3}, new int[]{26, 24, 13, 12, 3}
+            new int[]{26, 22, 13, 12, 3}, new int[]{26, 24, 13, 12, 3}, new int[]{26, 13, 5, 4},
+            new int[]{21, 20, 13, 11, 4}, new int[]{15, 13, 8, 3}
     ));
 
     private final String[] five_persons = {
@@ -886,6 +888,8 @@ public class GongKaiZhaoMuActivity extends AppCompatActivity {
             "火神", "因陀罗", "吽",
             "惊蛰", "慑砂", "巫恋",
             "极境", "石棉", "月禾",
+            "莱恩哈特", "断崖", "蜜蜡",
+            "贾维", "安哲拉",
     };
 
     private final ArrayList<int[]> five_persons_tags = new ArrayList<>(Arrays.asList(
@@ -901,7 +905,9 @@ public class GongKaiZhaoMuActivity extends AppCompatActivity {
             new int[]{19, 23, 5, 4}, new int[]{13, 5, 4}, new int[]{18, 21, 7, 3},
             new int[]{16, 15, 13, 9, 3}, new int[]{13, 16, 8, 3}, new int[]{15, 17, 9, 3},
             new int[]{13, 6, 4}, new int[]{19, 23, 5, 4}, new int[]{23, 11, 4},
-            new int[]{21, 18, 7, 3}, new int[]{15, 13, 9, 3}, new int[]{21, 16, 11, 4}
+            new int[]{21, 18, 7, 3}, new int[]{15, 13, 9, 3}, new int[]{21, 16, 11, 4},
+            new int[]{27, 19, 6, 4}, new int[]{19, 13, 8, 3}, new int[]{19, 15, 6, 4},
+            new int[]{18, 13, 7, 3}, new int[]{20, 13, 5, 4}
     ));
 
     private final String[] four_persons = {
@@ -915,7 +921,8 @@ public class GongKaiZhaoMuActivity extends AppCompatActivity {
             "清道夫", "白雪", "流星",
             "杰西卡", "远山", "夜烟",
             "艾丝黛尔", "清流", "宴",
-            "刻刀",
+            "刻刀", "波登可", "卡达",
+            "孑"
     };
 
     private final ArrayList<int[]> four_persons_tags = new ArrayList<>(Arrays.asList(
@@ -929,7 +936,8 @@ public class GongKaiZhaoMuActivity extends AppCompatActivity {
             new int[]{18, 13, 7, 3}, new int[]{19, 20, 5, 4}, new int[]{13, 23, 5, 4},
             new int[]{13, 16, 5, 4}, new int[]{19, 6, 4}, new int[]{13, 23, 6, 4},
             new int[]{19, 16, 8, 3}, new int[]{17, 21, 10, 4}, new int[]{13, 16, 8, 3},
-            new int[]{13, 27, 8, 3}
+            new int[]{13, 27, 8, 3}, new int[]{20, 17, 11, 4}, new int[]{26, 13, 6, 4},
+            new int[]{22, 13, 12, 3}
     ));
 
     private final String[] three_persons = {
