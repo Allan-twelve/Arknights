@@ -177,6 +177,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             R.raw.konggou_report_voice,
             R.raw.hantan_report_voice,
             R.raw.qingzhi_report_voice,
+            R.raw.xingren_report_voice,
             //
             R.raw.amiya_report_voice,
             R.raw.baihui_report_voice,
@@ -227,6 +228,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             R.raw.yinxian_report_voice,
             R.raw.linshi_report_voice,
             R.raw.cangtai_report_voice,
+            R.raw.bingniang_report_voice,
     };
 
     private static final String[] five_url = {
@@ -310,6 +312,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/2/2d/%E7%AB%8B%E7%BB%98_%E7%A9%BA%E6%9E%84_1.png",
             "https://prts.wiki/images/7/7a/%E7%AB%8B%E7%BB%98_%E5%AF%92%E6%AA%80_1.png",
             "https://prts.wiki/images/f/f7/%E7%AB%8B%E7%BB%98_%E9%9D%92%E6%9E%B3_1.png",
+            "https://prts.wiki/images/8/88/%E7%AB%8B%E7%BB%98_%E6%9D%8F%E4%BB%81_1.png",
             //
             "https://prts.wiki/images/d/dd/%E7%AB%8B%E7%BB%98_%E9%98%BF%E7%B1%B3%E5%A8%85_1.png",
             "https://prts.wiki/images/4/4e/%E7%AB%8B%E7%BB%98_%E6%9F%8F%E5%96%99_1.png",
@@ -360,6 +363,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/b/bf/%E7%AB%8B%E7%BB%98_%E9%9A%90%E7%8E%B0_1.png",
             "https://prts.wiki/images/0/03/%E7%AB%8B%E7%BB%98_%E5%87%9B%E8%A7%86_1.png",
             "https://prts.wiki/images/a/a8/%E7%AB%8B%E7%BB%98_%E8%8B%8D%E8%8B%94_1.png",
+            "https://prts.wiki/images/7/7e/%E7%AB%8B%E7%BB%98_%E5%86%B0%E9%85%BF_1.png",
     };
 
     private static String[] five_url2 = {
@@ -443,6 +447,7 @@ public class FivePicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/2/24/%E7%AB%8B%E7%BB%98_%E7%A9%BA%E6%9E%84_2.png",
             "https://prts.wiki/images/4/43/%E7%AB%8B%E7%BB%98_%E5%AF%92%E6%AA%80_2.png",
             "https://prts.wiki/images/1/1a/%E7%AB%8B%E7%BB%98_%E9%9D%92%E6%9E%B3_2.png",
+            "https://prts.wiki/images/4/4a/%E7%AB%8B%E7%BB%98_%E6%9D%8F%E4%BB%81_2.png",
             //
             "https://prts.wiki/images/3/3f/%E7%AB%8B%E7%BB%98_%E9%98%BF%E7%B1%B3%E5%A8%85_2.png",
             "https://prts.wiki/images/2/2d/%E7%AB%8B%E7%BB%98_%E6%9F%8F%E5%96%99_2.png",
@@ -493,5 +498,6 @@ public class FivePicturesActivity extends AppCompatActivity {
             "https://prts.wiki/images/d/d6/%E7%AB%8B%E7%BB%98_%E9%9A%90%E7%8E%B0_2.png",
             "https://prts.wiki/images/f/f4/%E7%AB%8B%E7%BB%98_%E5%87%9B%E8%A7%86_2.png",
             "https://prts.wiki/images/a/a6/%E7%AB%8B%E7%BB%98_%E8%8B%8D%E8%8B%94_2.png",
+            "https://prts.wiki/images/f/f3/%E7%AB%8B%E7%BB%98_%E5%86%B0%E9%85%BF_2.png",
     };
 }

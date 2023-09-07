@@ -24,7 +24,7 @@ import java.util.Random;
 public class SelectedSearchingActivity extends AppCompatActivity {
 
     // 修改常驻干员数量
-    private final int SEARCHING_SIX = 60, SEARCHING_FIVE = 80, SEARCHING_FOUR = 44;
+    private final int SEARCHING_SIX = 61, SEARCHING_FIVE = 81, SEARCHING_FOUR = 44;
 
     ImageView img;
     EditText percent;
@@ -1053,9 +1053,9 @@ public class SelectedSearchingActivity extends AppCompatActivity {
     }
 
     private final String[] sixStars = {
-            // 80
+            // 81
             // 常驻
-            // 60
+            // 61
             "能天使", "黑", "安洁莉娜", "银灰", "莫斯提马",
             "夜莺", "星熊", "陈", "阿", "煌",
             "麦哲伦", "赫拉格", "斯卡蒂", "塞雷娅", "闪灵",
@@ -1068,6 +1068,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "艾丽妮", "黑键", "多萝西", "鸿雪", "玛恩纳",
             "白铁", "斥罪", "焰影苇草", "林", "仇白",
             "伊内丝", "霍尔海雅", "圣约送葬人", "提丰", "琳琅诗怀雅",
+            "涤火杰西卡",
             // 限定
             // 20
             "W", "歌蕾蒂娅", "灰烬", "迷迭香", "年",
@@ -1077,9 +1078,9 @@ public class SelectedSearchingActivity extends AppCompatActivity {
     };
 
     private final String[] fiveStars = {
-            // 130
+            // 132
             // 常驻
-            // 80
+            // 81
             "狮蝎", "食铁兽", "蓝毒", "拉普兰德", "幽灵鲨",
             "德克萨斯", "槐琥", "赫默", "红", "白面鸮",
             "空", "吽", "灰喉", "布洛卡", "苇草",
@@ -1096,8 +1097,9 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "掠风", "濯尘芙蓉", "承曦格雷伊", "晓歌", "但书",
             "明椒", "子月", "和弦", "火哨", "铎铃",
             "洋灰", "玫拉", "空构", "寒檀", "青枳",
+            "杏仁",
             // 非寻访
-            // 50
+            // 51
             "阿米娅", "柏喙", "拜松", "薄绿", "暴行",
             "暴雨", "贝娜", "鞭刃", "格拉尼", "火神",
             "苦艾", "罗宾", "闪击", "霜华", "特米米",
@@ -1108,6 +1110,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "海蒂", "埃拉托", "车尔尼", "星源", "至简",
             "海沫", "达格达", "雪绒", "谜图", "截云",
             "火龙S黑角", "摩根", "隐现", "凛视", "苍苔",
+            "冰酿",
     };
 
     private final String[] fourStars = {
@@ -1198,6 +1201,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "https://prts.wiki/images/7/71/%E7%AB%8B%E7%BB%98_%E5%9C%A3%E7%BA%A6%E9%80%81%E8%91%AC%E4%BA%BA_1.png",
             "https://prts.wiki/images/8/8e/%E7%AB%8B%E7%BB%98_%E6%8F%90%E4%B8%B0_1.png",
             "https://prts.wiki/images/a/a1/%E7%AB%8B%E7%BB%98_%E7%90%B3%E7%90%85%E8%AF%97%E6%80%80%E9%9B%85_1.png",
+            "https://prts.wiki/images/3/3b/%E7%AB%8B%E7%BB%98_%E6%B6%A4%E7%81%AB%E6%9D%B0%E8%A5%BF%E5%8D%A1_1.png",
             //
             "https://prts.wiki/images/4/44/%E7%AB%8B%E7%BB%98_W_1.png",
             "https://prts.wiki/images/8/84/%E7%AB%8B%E7%BB%98_%E6%AD%8C%E8%95%BE%E8%92%82%E5%A8%85_1.png",
@@ -1302,6 +1306,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "https://prts.wiki/images/2/2d/%E7%AB%8B%E7%BB%98_%E7%A9%BA%E6%9E%84_1.png",
             "https://prts.wiki/images/7/7a/%E7%AB%8B%E7%BB%98_%E5%AF%92%E6%AA%80_1.png",
             "https://prts.wiki/images/f/f7/%E7%AB%8B%E7%BB%98_%E9%9D%92%E6%9E%B3_1.png",
+            "https://prts.wiki/images/8/88/%E7%AB%8B%E7%BB%98_%E6%9D%8F%E4%BB%81_1.png",
             //
             "https://prts.wiki/images/d/dd/%E7%AB%8B%E7%BB%98_%E9%98%BF%E7%B1%B3%E5%A8%85_1.png",
             "https://prts.wiki/images/4/4e/%E7%AB%8B%E7%BB%98_%E6%9F%8F%E5%96%99_1.png",
@@ -1352,6 +1357,7 @@ public class SelectedSearchingActivity extends AppCompatActivity {
             "https://prts.wiki/images/b/bf/%E7%AB%8B%E7%BB%98_%E9%9A%90%E7%8E%B0_1.png",
             "https://prts.wiki/images/0/03/%E7%AB%8B%E7%BB%98_%E5%87%9B%E8%A7%86_1.png",
             "https://prts.wiki/images/a/a8/%E7%AB%8B%E7%BB%98_%E8%8B%8D%E8%8B%94_1.png",
+            "https://prts.wiki/images/7/7e/%E7%AB%8B%E7%BB%98_%E5%86%B0%E9%85%BF_1.png",
     };
 
     private static String[] four_url = {
