@@ -967,12 +967,12 @@ public class GongKaiZhaoMuActivity extends AppCompatActivity {
 
     private final String[] one_persons = {
             "THRM-EX", "Castle-3", "Lancet-2",
-            "正义骑士号",
+            "正义骑士号", "Friston-3"
     };
 
     private final ArrayList<int[]> one_persons_tags = new ArrayList<>(Arrays.asList(
             new int[]{27, 14, 12, 3}, new int[]{21, 14, 8, 3}, new int[]{17, 10, 14, 4},
-            new int[]{14, 21, 4}
+            new int[]{14, 21, 5, 4}, new int[]{15, 14, 9, 3}
     ));
 
     private final String[] tags = {

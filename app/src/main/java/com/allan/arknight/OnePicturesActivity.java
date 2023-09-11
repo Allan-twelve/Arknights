@@ -138,9 +138,10 @@ public class OnePicturesActivity extends AppCompatActivity {
     }
 
     private final String[] oneStar = {
-            // 4个
+            // 7个
             // 非寻访
-            "THRM-EX", "Castle-3", "Lancet-2", "正义骑士号",
+            "THRM-EX", "Castle-3", "Lancet-2", "正义骑士号", "泰拉大陆调查团",
+            "U-Official", "Friston-3"
     };
 
     private final int[] one_voice = {
@@ -148,12 +149,18 @@ public class OnePicturesActivity extends AppCompatActivity {
             R.raw.castle_3_report_voice,
             R.raw.lancet_2_report_voice,
             R.raw.zhengyiqishihao_report_voice,
+            R.raw.tailadaludiaochatuan_report_voice,
+            R.raw.u_official_report_voice,
+            R.raw.friston_3_report_voice,
     };
 
     private final String[] one_url = {
             "https://prts.wiki/images/8/8a/%E7%AB%8B%E7%BB%98_THRM-EX_1.png",
             "https://prts.wiki/images/9/95/%E7%AB%8B%E7%BB%98_Castle-3_1.png",
             "https://prts.wiki/images/8/8e/%E7%AB%8B%E7%BB%98_Lancet-2_1.png",
-            "https://prts.wiki/images/e/e2/%E7%AB%8B%E7%BB%98_%E6%AD%A3%E4%B9%89%E9%AA%91%E5%A3%AB%E5%8F%B7_1.png"
+            "https://prts.wiki/images/e/e2/%E7%AB%8B%E7%BB%98_%E6%AD%A3%E4%B9%89%E9%AA%91%E5%A3%AB%E5%8F%B7_1.png",
+            "https://prts.wiki/images/8/88/%E7%AB%8B%E7%BB%98_%E6%B3%B0%E6%8B%89%E5%A4%A7%E9%99%86%E8%B0%83%E6%9F%A5%E5%9B%A2_1.png",
+            "https://prts.wiki/images/7/74/%E7%AB%8B%E7%BB%98_U-Official_1.png",
+            "https://prts.wiki/images/4/46/%E7%AB%8B%E7%BB%98_Friston-3_1.png",
     };
 }
